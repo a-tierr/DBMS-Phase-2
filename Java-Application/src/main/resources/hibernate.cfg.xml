@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- ===================== DATABASE CONNECTION ===================== -->
+        <!-- Change these 3 lines to match your PostgreSQL server. -->
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/carwash</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">cw83</property>
+
+        <!-- ===================== HIBERNATE SETTINGS ====================== -->
+        <!-- The dialect is detected automatically from the JDBC connection (PostgreSQL).
+             If your teacher wants it explicit, uncomment the next line:
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        -->
+
+        <!-- Code-first: Hibernate creates the tables from the entity classes.
+             create  = drop the old tables and create them again on every run.
+             update  = keep existing tables and only add what is missing (keeps data). -->
+        <property name="hibernate.hbm2ddl.auto">create</property>
+
+        <!-- Show the generated SQL in the Output window (useful for your screenshots). -->
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <property name="hibernate.use_sql_comments">true</property>
+
+        <!-- Phase 1 uses quoted names such as "Manager" and "Customer_ID",
+             so Hibernate must quote every identifier too. -->
+        <property name="hibernate.globally_quoted_identifiers">true</property>
+
+        <property name="hibernate.connection.pool_size">5</property>
+
+
+
+
+    </session-factory>
+</hibernate-configuration>
