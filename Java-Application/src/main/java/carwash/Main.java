@@ -1,6 +1,5 @@
-package com.team83.carwash;
 
-import com.team83.carwash.util.HibernateUtil;
+package carwash;
 
 public class Main {
     public static void main(String[] args) {

@@ -15,7 +15,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
-        <exec.mainClass>com.team83.carwash.Main</exec.mainClass>
+        <exec.mainClass>carwash.Main</exec.mainClass>
     </properties>
 
     <dependencies>
@@ -55,7 +55,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.2.0</version>
                 <configuration>
-                    <mainClass>com.team83.carwash.Main</mainClass>
+                    <mainClass>carwash.Main</mainClass>
                 </configuration>
             </plugin>
 
@@ -68,7 +68,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.team83.carwash.Main</mainClass>
+                            <mainClass>carwash.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
