@@ -8,12 +8,12 @@
 ## Team Members
 | # | Name | Role |
 |---|------|------|
-| 1 | ... | Team Leader / Integration |
-| 2 | ... | Class Mapping (Entities) |
-| 3 | ... | Hibernate Integration |
-| 4 | ... | Data Seeding & CRUD |
-| 5 | ... | Views & Indexing |
-| 6 | ... | Functions & Procedures |
+| 1 | Abdelrahman Adel| Team Leader / Integration |
+| 2 | Samaa Aussam | Class Mapping (Entities) |
+| 3 | Gamal Mohammed | Hibernate Integration |
+| 4 | Shams Hatem | Data Seeding & CRUD |
+| 5 | Tasneem Hesham | Views & Indexing |
+| 6 | Sondos Ehab | Functions & Procedures |
 
 ## Project Structure
 - `Java-Application/` : Maven + Hibernate project (open in NetBeans)
